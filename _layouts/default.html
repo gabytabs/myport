@@ -4,14 +4,17 @@
   {% include head.html %}
 
   <body>
-    <div class="yolo" id="app">
-      {% include header.html %}
-
-      {{ content }}
+    <div id="app">
+      <div class="columns">
+        <div class="column sidebar">
+          {% include header.html %}
+        </div>
+        <div class="column is-9">
+          {{ content }}
+        </div>
+      </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://unpkg.com/vue@2.3.4"></script>
     <script type="text/javascript" src="../assets/js/main.js"></script>
   </body>

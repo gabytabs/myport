@@ -2,18 +2,60 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@media only screen and (max-width : 320px) {
-	
+// GENERAL
+
+.text-center{
+	text-align: center;
 }
 
-@media only screen and (min-width : 480px) {
-	
+
+// NAVBAR | PICTURE WITH ME
+.sidebar {
+	padding-top: 30px !important;
 }
 
-@media only screen and (min-width : 768px) {
-
+.my-name {
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+figure.img-center {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img.img-circle {
+	border-radius: 60px !important;
 }
 
-@media only screen and (min-width : 999px) {
+// NAVBAR | ABOUT ME
+.about-me {
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+	p.content-container{
+		padding: 20px;
+		text-align: justify;
+	}
+}
+
+// NAVBAR | SOCIAL MEDIA CONTACT
+.social-media-icon {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.contact-container {
+	padding: 20px;
+}
+
+// NAVBAR | NAV
+
+.navi {
+	padding-bottom: 20px !important;
+}
+
+
+// MAIN CONTENT
+section.main-content {
 
 }
