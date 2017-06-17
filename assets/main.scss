@@ -8,15 +8,25 @@
 	text-align: center;
 }
 
-
 // NAVBAR | PICTURE WITH ME
 .sidebar {
 	padding-top: 30px !important;
+	background-color: #ebf2fa !important;
+
 }
 
 .my-name {
 	padding-top: 10px;
 	margin-bottom: 30px;
+
+	h1.color-name {
+		transition: all 0.5s ease;
+		color: #05668d !important;
+
+		&:hover{
+			color: #679436 !important;
+		}
+	}
 }
 figure.img-center {
 	margin-left: auto;
@@ -42,16 +52,35 @@ img.img-circle {
 .social-media-icon {
 	margin-top: 40px;
 	text-align: center;
+
+	a.icon-color{
+		transition: all 0.5s ease;
+		color: #05668d !important;
+
+		&:hover{
+			color: #679436 !important;
+		}
+	}
 }
 
 .contact-container {
 	padding: 20px;
 }
 
-// NAVBAR | NAV
 
+
+// NAVBAR | NAV
 .navi {
 	padding-bottom: 20px !important;
+
+	h2.color-nav{
+		transition: all 0.5s ease;
+		color: #05668d !important;
+
+		&:hover {
+			color: #679436 !important;
+		}
+	}
 }
 
 
