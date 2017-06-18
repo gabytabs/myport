@@ -132,14 +132,13 @@ Vue.component('project-section',{
 	template:`
 		<div class="projects content is-small">
 			<h1 class="text-center"> MY PAST WORKS </h1>
+			<a href="http://www.mcrdenterprises.com" target="_blank">
 			<section class="hero is-primary project1">
 			  <div class="hero-body">
 			    <div class="container">
-				    <a href="http://www.mcrdenterprises.com" target="_blank">
 				      <h1 class="title">
 				        MCRD Enterprises
 				      </h1>
-				    </a>
 			      <h4 class="subtitle">
 			        A family business engage in wholesale clothing and garment manufacturing,</br> printing, 
 			        embroidering and design based on Philippines.
@@ -150,6 +149,7 @@ Vue.component('project-section',{
 			    </div>
 			  </div>
 			</section>
+			</a>
 			<section class="hero is-info project2">
 			  <div class="hero-body">
 			    <div class="container">
@@ -181,14 +181,13 @@ Vue.component('project-section',{
 			    </div>
 			  </div>
 			</section>
+			<a href="http://www.seembu.com" target="_blank">
 			<section class="hero is-success project4">
 			  <div class="hero-body">
 			    <div class="container">
-				    <a href="http://www.seembu.com" target="_blank">
 				      <h1 class="title">
 				        Seembu
 				      </h1>
-				    </a>
 			      <h4 class="subtitle">
 			      	A source of architectural insights, interior tips, marketing tips, self-improvement guides </br> and inspiring stories.
 			      </h4>
@@ -198,6 +197,15 @@ Vue.component('project-section',{
 			    </div>
 			  </div>
 			</section>
+			</a>
+		</div>
+	`
+})
+
+Vue.component('education-section',{
+	template:`
+		<div>
+
 		</div>
 	`
 })

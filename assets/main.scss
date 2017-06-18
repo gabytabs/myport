@@ -135,6 +135,11 @@ img.img-circle {
 	}
 }
 // PROJECTS
+@media screen and (min-width: 1192px) {
+	.hero-body {
+	    padding-left: 20px !important;
+	}
+}
 .projects{
 	padding: 40px;
 
@@ -167,5 +172,12 @@ section.project3{
 		h1,h4, strong{
 			color: #fff !important;
 		}
+	}
+}
+
+// PROJECT | PROJECT 4
+section.project4{
+	h1.title{
+		padding-bottom: 20px !important;
 	}
 }
