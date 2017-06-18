@@ -202,13 +202,13 @@ Vue.component('project-section',{
 	`
 })
 
-Vue.component('education-section',{
-	template:`
-		<div>
-
-		</div>
-	`
-})
+// Vue.component('education-section',{
+// 	template:`
+// 		<div>
+			
+// 		</div>
+// 	`
+// })
 
 new Vue({
 	el: "#app",
@@ -216,32 +216,32 @@ new Vue({
 		showintro: true,
 		showskills: false,
 		showproject: false,
-		showeduction: false
+		// showeduction: false
 	},
 	methods: {
 		showIntroSection(){
 			this.showintro = true
 			this.showskills = false
 			this.showproject = false
-			this.showeduction = false
+			// this.showeduction = false
 		},
 		showSkillsSection() {
 			this.showskills = true
 			this.showintro = false
 			this.showproject = false
-			this.showeduction = false
+			// this.showeduction = false
 		},
 		showProjectSection() {
 			this.showproject = true
 			this.showintro = false
 			this.showskills = false
-			this.showeduction = false
+			// this.showeduction = false
 		},
-		showEducationSection() {
-			this.showproject = false
-			this.showintro = false
-			this.showskills = false
-			this.showeduction = true
-		}
+		// showEducationSection() {
+		// 	this.showproject = false
+		// 	this.showintro = false
+		// 	this.showskills = false
+		// 	this.showeduction = true
+		// }
 	}
 })
