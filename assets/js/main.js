@@ -128,20 +128,55 @@ Vue.component('skill-section',{
 	`
 })
 
+Vue.component('project-section',{
+	template:`
+		<div class="projects content is-small">
+			<h1 class="text-center"> My past works </h1>
+			<section class="project1">
+				<h2> MCRD Enterprises </h2>
+				<a href="http://www.mcrdenterprises.com" target="_blank"><h4>www.mcrdenterprises.com</h4></a>
+				<h4> 2013 </h4>
+				<h4> What is it? </h4>
+				<p>
+					It is a WordPress App.
+				</p>
+			</section>
+		</div>
+	`
+})
+
 new Vue({
 	el: "#app",
 	data: {
 		showintro: true,
-		showskills: false
+		showskills: false,
+		showproject: false,
+		showeduction: false
 	},
 	methods: {
 		showIntroSection(){
 			this.showintro = true
 			this.showskills = false
+			this.showproject = false
+			this.showeduction = false
 		},
 		showSkillsSection() {
 			this.showskills = true
 			this.showintro = false
+			this.showproject = false
+			this.showeduction = false
+		},
+		showProjectSection() {
+			this.showproject = true
+			this.showintro = false
+			this.showskills = false
+			this.showeduction = false
+		},
+		showEducationSection() {
+			this.showproject = false
+			this.showintro = false
+			this.showskills = false
+			this.showeduction = true
 		}
 	}
 })

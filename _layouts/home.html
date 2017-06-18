@@ -5,7 +5,7 @@ layout: default
   <section v-show="showintro" id="home" class="intro-content">
     <div class="content is-large">
       <div class="quote-area is-hidden-mobile">
-        <h3>“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”</h3>
+        <h4>“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”</h4>
         <h5>– Martin Golding</h5>
       </div>
     </div>    
@@ -15,5 +15,17 @@ layout: default
 <transition name="fade">
   <section v-show="showskills" class="skills" id="skills">
     <skill-section></skill-section>
+  </section>
+</transition>
+
+<transition name="fade">
+  <section v-show="showproject" class="project" id="pastprojects">
+    <project-section></project-section>
+  </section>
+</transition>
+
+<transition name="fade">
+  <section v-show="showeduction" class="education" id="education">
+    <h1> Education </h1>
   </section>
 </transition>

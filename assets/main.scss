@@ -101,13 +101,14 @@ img.img-circle {
 }
 // INTRO 
 .quote-area{
-	top: 350px;
-	position: fixed;
+	top: 250px;
+	position: absolute;
 	text-align: left;
 }
 // SKILLS SECTION
 .skills-sections{
-	padding: 50px;
+	margin-top: 80px;
+	padding: 40px;
 
 	section.frontend{
 		margin-bottom: 80px;
@@ -133,4 +134,12 @@ img.img-circle {
 		}
 	}
 }
+// PROJECTS
+.projects{
+	padding: 40px;
+}
 
+// PROJECTS | PROJECT 1
+section.project1{
+	
+}
