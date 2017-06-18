@@ -2,8 +2,15 @@
 layout: default
 ---
 
-<div class="home">
-  <section class="main-content">
-    <h1 class="title"> Main content here</h1>
-  </section>
-</div>
+<section v-show="showintro" id="home" class="intro-content">
+  <div class="content is-large">
+    <div class="quote-area is-hidden-mobile">
+      <h3>“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”</h3>
+      <h5>– Martin Golding</h5>
+    </div>
+  </div>    
+</section>
+
+<section v-show="showskills" class="skills" id="skills">
+  <skill-section></skill-section>
+</section>

@@ -8,10 +8,15 @@
 	text-align: center;
 }
 
+.text-justified{
+	text-align: justify;
+}
+
 // NAVBAR | PICTURE WITH ME
 .sidebar {
 	padding-top: 30px !important;
 	background-color: #ebf2fa !important;
+	padding-bottom: 150px !important;
 
 }
 
@@ -66,9 +71,6 @@ img.img-circle {
 .contact-container {
 	padding: 20px;
 }
-
-
-
 // NAVBAR | NAV
 .navi {
 	padding-bottom: 20px !important;
@@ -85,6 +87,41 @@ img.img-circle {
 
 
 // MAIN CONTENT
-section.main-content {
-
+.main-content {
+	color: #4a4a4a !important;
 }
+// INTRO 
+.quote-area{
+	top: 350px;
+	position: fixed;
+	text-align: left;
+}
+// SKILLS SECTION
+.skills-sections{
+	padding: 50px;
+
+	section.frontend{
+		margin-bottom: 80px;
+
+		h1.title{
+			color: #427aa1;
+		}
+	}
+
+	section.backend{
+		margin-bottom: 80px;
+
+		h1.title{
+			color: #427aa1;
+		}
+	}
+
+	section.essential{
+		margin-bottom: 50px;
+
+		h1.title{
+			color: #427aa1;
+		}
+	}
+}
+
