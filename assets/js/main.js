@@ -30,7 +30,7 @@ Vue.component('skill-section',{
 						</div>
 						<div class="column">
 							<h2 class="text-center"> Webpack </h2>
-							<progress class="progress is-primary" value="60" max="100">60%</progress>
+							<progress class="progress is-info" value="50" max="100">50%</progress>
 						</div>
 						<div class="column">
 							<h2 class="text-center"> SASS </h2>
@@ -44,7 +44,7 @@ Vue.component('skill-section',{
 					<div class="columns">
 						<div class="column">
 							<h2 class="text-center"> Responsive Design </h2>
-							<progress class="progress is-primary" value="75" max="100">75%</progress>
+							<progress class="progress is-success" value="80" max="100">80%</progress>
 						</div>
 						<div class="column">
 							<h2 class="text-center"> WordPress </h2>
@@ -131,15 +131,72 @@ Vue.component('skill-section',{
 Vue.component('project-section',{
 	template:`
 		<div class="projects content is-small">
-			<h1 class="text-center"> My past works </h1>
-			<section class="project1">
-				<h2> MCRD Enterprises </h2>
-				<a href="http://www.mcrdenterprises.com" target="_blank"><h4>www.mcrdenterprises.com</h4></a>
-				<h4> 2013 </h4>
-				<h4> What is it? </h4>
-				<p>
-					It is a WordPress App.
-				</p>
+			<h1 class="text-center"> MY PAST WORKS </h1>
+			<section class="hero is-primary project1">
+			  <div class="hero-body">
+			    <div class="container">
+				    <a href="http://www.mcrdenterprises.com" target="_blank">
+				      <h1 class="title">
+				        MCRD Enterprises
+				      </h1>
+				    </a>
+			      <h4 class="subtitle">
+			        A family business engage in wholesale clothing and garment manufacturing,</br> printing, 
+			        embroidering and design based on Philippines.
+			      </h4>
+			      <h4 class="subtitle"><strong>Year:</strong> 2014</h4>
+			      <h4 class="subtitle"><strong>What is it: </strong> A promotional website built using WordPress.</h4>
+			      <h4 class="subtitle"><strong>What I did: </strong> I build this using Divi theme with custom CSS. </h4>
+			    </div>
+			  </div>
+			</section>
+			<section class="hero is-info project2">
+			  <div class="hero-body">
+			    <div class="container">
+				    <h1 class="title">
+				    	Codeitat Web Development
+				    </h1>
+			      <h4 class="subtitle">
+			        A cross functional team that builds mobile apps, websites, web apps and graphic design</br> for businesses,
+			        based in the Philippines
+			      </h4>
+			      <h4 class="subtitle"><strong>Year:</strong> 2013</h4>
+			      <h4 class="subtitle"><strong>What is it: </strong> A landing page built using angular 1.</h4>
+			      <h4 class="subtitle"><strong>What I did: </strong> I was the web developer and product manager of the group. </h4>
+			    </div>
+			  </div>
+			</section>
+			<section class="hero project3">
+			  <div class="hero-body">
+			    <div class="container">
+				    <h1 class="title">
+				    	Qmune Loyalty App
+				    </h1>
+			      <h4 class="subtitle">
+			        A mobile android app that serves a digital loyalty system for dessert shops to </br>gather important informations for loyal customers.
+			      </h4>
+			      <h4 class="subtitle"><strong>Year:</strong> 2013</h4>
+			      <h4 class="subtitle"><strong>What is it: </strong> An Android tablet application with a unique QR card.</h4>
+			      <h4 class="subtitle"><strong>What I did: </strong> I was the product manager for this app. </h4>
+			    </div>
+			  </div>
+			</section>
+			<section class="hero is-success project4">
+			  <div class="hero-body">
+			    <div class="container">
+				    <a href="http://www.seembu.com" target="_blank">
+				      <h1 class="title">
+				        Seembu
+				      </h1>
+				    </a>
+			      <h4 class="subtitle">
+			      	A source of architectural insights, interior tips, marketing tips, self-improvement guides </br> and inspiring stories.
+			      </h4>
+			      <h4 class="subtitle"><strong>Year:</strong> 2015</h4>
+			      <h4 class="subtitle"><strong>What is it: </strong> A blog site built using WordPress.</h4>
+			      <h4 class="subtitle"><strong>What I did: </strong> I build this using X theme with custom CSS. </h4>
+			    </div>
+			  </div>
 			</section>
 		</div>
 	`

@@ -137,9 +137,35 @@ img.img-circle {
 // PROJECTS
 .projects{
 	padding: 40px;
+
+	h1.text-center{
+		margin-bottom: 40px;
+	}
+}
+// PROJECT | PROJECT 1
+section.project1{
+	margin-bottom: 20px !important;
 }
 
-// PROJECTS | PROJECT 1
-section.project1{
-	
+// PROJECT | PROJECT 2
+section.project2{
+	margin-bottom: 20px !important;
+
+	h1.title{
+		padding-bottom: 20px !important;
+	}
+}
+
+// PROJECT | PROJECT 3
+section.project3{
+	background-color: #FF953E !important;
+	margin-bottom: 20px !important;
+	h1.title{
+		padding-bottom: 20px !important;
+	}
+	.container{
+		h1,h4, strong{
+			color: #fff !important;
+		}
+	}
 }
