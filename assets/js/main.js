@@ -8,7 +8,7 @@ Vue.component('skill-section',{
 					<div class="columns">
 						<div class="column">
 							<h2 class="text-center"> HTML </h2>
-							<progress class="progress is-success" value="95" max="100">95%</progress>
+							<progress class="progress is-success" value="98" max="100">95%</progress>
 						</div>
 						<div class="column">
 							<h2 class="text-center"> CSS </h2>
@@ -125,7 +125,10 @@ Vue.component('skill-section',{
 					</div>
 			</section>
 		</div>
-	`
+	`,
+	methods: function() {
+
+	}
 })
 
 Vue.component('project-section',{
@@ -210,12 +213,13 @@ Vue.component('project-section',{
 // 	`
 // })
 
-new Vue({
+const app = new Vue({
 	el: "#app",
 	data: {
 		showintro: true,
 		showskills: false,
 		showproject: false,
+		html: "0"
 		// showeduction: false
 	},
 	methods: {

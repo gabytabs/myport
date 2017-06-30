@@ -98,13 +98,14 @@ img.img-circle {
 // MAIN CONTENT
 .main-content {
 	color: #4a4a4a !important;
+	padding: 20px !important;
 }
 // INTRO 
-.quote-area{
-	top: 250px;
-	position: absolute;
-	text-align: left;
+.intro-box{
+	padding: 50px !important;
+	margin-top: 250px;
 }
+
 // SKILLS SECTION
 .skills-sections{
 	margin-top: 80px;
