@@ -8,7 +8,7 @@ Vue.component('skill-section',{
 					<div class="columns">
 						<div class="column">
 							<h2 class="text-center"> HTML </h2>
-							<progress class="progress is-success" value="98" max="100">95%</progress>
+							<progress class="progress is-success" value="98" max="100">98%</progress>
 						</div>
 						<div class="column">
 							<h2 class="text-center"> CSS </h2>
