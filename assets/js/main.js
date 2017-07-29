@@ -164,7 +164,7 @@ Vue.component('project-section',{
 			        based in the Philippines
 			      </h4>
 			      <h4 class="subtitle"><strong>Year:</strong> 2013</h4>
-			      <h4 class="subtitle"><strong>What is it: </strong> A landing page built using angular 1.</h4>
+			      <h4 class="subtitle"><strong>What is it: </strong> A landing page built.</h4>
 			      <h4 class="subtitle"><strong>What I did: </strong> I was the web developer and product manager of the group. </h4>
 			    </div>
 			  </div>
