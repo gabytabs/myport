@@ -56,6 +56,7 @@ img.img-circle {
 	p.content-container{
 		padding: 20px;
 		text-align: justify;
+		font-size: 14px;
 	}
 }
 
@@ -105,7 +106,7 @@ img.img-circle {
 
 // SKILLS SECTION
 .skills-sections{
-	margin-top: 80px;
+	margin-top: 50px;
 	padding: 40px;
 
 	section.frontend{
@@ -132,50 +133,60 @@ img.img-circle {
 		}
 	}
 }
-// PROJECTS
+// WORKS
 @media screen and (min-width: 1192px) {
 	.hero-body {
 	    padding-left: 20px !important;
 	}
 }
-.projects{
+.works {
 	padding: 40px;
 
-	h1.text-center{
+	section {
+		margin-bottom: 70px;
+	}
+
+	h1.text-center {
 		margin-bottom: 40px;
 	}
-}
-// PROJECT | PROJECT 1
-section.project1{
-	margin-bottom: 20px !important;
-}
 
-// PROJECT | PROJECT 2
-section.project2{
-	margin-bottom: 20px !important;
-
-	h1.title{
-		padding-bottom: 20px !important;
-	}
-}
-
-// PROJECT | PROJECT 3
-section.project3{
-	background-color: #FF953E !important;
-	margin-bottom: 20px !important;
-	h1.title{
-		padding-bottom: 20px !important;
-	}
-	.container{
-		h1,h4, strong{
-			color: #fff !important;
+	h1.work-title {
+		color: #427aa1;
+		a { 
+			color: #427aa1;
+			transition: all 0.5s ease;
+			&:hover {
+				color: rgb(118,158,74);
+			}
 		}
 	}
 }
 
-// PROJECT | PROJECT 4
-section.project4{
-	h1.title{
-		padding-bottom: 20px !important;
+.work-divider {
+	border-top: 4px solid #427aa1;
+	width: 15%;
+	padding-bottom: 20px;
+}
+
+.content-work-container {
+	// border-bottom: 1px solid #4a4a4a;
+	// box-shadow: 0px 10px 5px #888888;
+	.work-description {
+		font-size: 16px;
+	}
+}
+
+// PROJECTS
+.ladderio-server {
+	h2.title{
+			color: #427aa1;
+		}
+}
+
+.ul-projects {
+	li{
+		a{
+			font-size: 16px;
+		}
 	}
 }
