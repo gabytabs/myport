@@ -1,6 +1,6 @@
 window.Event = new Vue({})
 
-Vue.component('skill-section',{
+Vue.component('skills-section',{
 	template: `
 		<div class="skills-sections">
 			<section class="frontend">
@@ -83,7 +83,7 @@ Vue.component('skill-section',{
 						</div>
 						<div class="column">
 							<h2 class="text-center"> Capybara </h2>
-							<progress class="progress is-danger" value="45" max="100">45%</progress>
+							<progress class="progress is-primary" value="75" max="100">75%</progress>
 						</div>
 						<div class="column">
 							<h2 class="text-center"> Heroku </h2>
@@ -125,93 +125,138 @@ Vue.component('skill-section',{
 					</div>
 			</section>
 		</div>
-	`,
-	methods: function() {
-
-	}
+	`
 })
 
-Vue.component('project-section',{
+Vue.component('works-section', {
 	template:`
-		<div class="projects content is-small">
-			<h1 class="text-center"> MY PAST WORKS </h1>
-			<a href="http://www.mcrdenterprises.com" target="_blank">
-			<section class="hero is-primary project1">
-			  <div class="hero-body">
-			    <div class="container">
-				      <h1 class="title">
-				        MCRD Enterprises
-				      </h1>
-			      <h4 class="subtitle">
-			        A family business engage in wholesale clothing and garment manufacturing,</br> printing, 
-			        embroidering and design based on Philippines.
-			      </h4>
-			      <h4 class="subtitle"><strong>Year:</strong> 2014</h4>
-			      <h4 class="subtitle"><strong>What is it: </strong> A promotional website built using WordPress.</h4>
-			      <h4 class="subtitle"><strong>What I did: </strong> I build this using Divi theme with custom CSS. </h4>
-			    </div>
-			  </div>
+		<div class="works content is-medium">
+			<h1 class="text-center"> MY WORK EXPERIENCES </h1>
+			<section class="ladderio">
+				<div class="header-work-container">
+					<h1 class="work-title"><a href="https://ladder.io/" target="_blank" >Ladder.io</a></h1>
+					<h4> <span class="year-work">2017</span></h4>
+				</div>
+				<div class="work-divider"></div>
+				<div class="content-work-container">
+					<h4> Web Developer </h4>
+					<p class="work-util"><strong>What I used: </strong> Ruby on Rails </p>
+					<p class="work-description">
+						<ul>
+							<li>
+								Worked directly under a client to create a Rails app to store marketing benchmarks data in a database; this app serves as an API
+							</li>
+							<li>
+								Designed a reactJS app that serves as a search engine for client’s internal marketing benchmarks
+							</li>
+						</ul> 
+					</p>
+				</div>
 			</section>
-			</a>
-			<section class="hero is-info project2">
-			  <div class="hero-body">
-			    <div class="container">
-				    <h1 class="title">
-				    	Codeitat Web Development
-				    </h1>
-			      <h4 class="subtitle">
-			        A cross functional team that builds mobile apps, websites, web apps and graphic design</br> for businesses,
-			        based in the Philippines
-			      </h4>
-			      <h4 class="subtitle"><strong>Year:</strong> 2013</h4>
-			      <h4 class="subtitle"><strong>What is it: </strong> A landing page built.</h4>
-			      <h4 class="subtitle"><strong>What I did: </strong> I was the web developer and product manager of the group. </h4>
-			    </div>
-			  </div>
+			<section class="seembu">
+				<div class="header-work-container">
+					<h1 class="work-title"><a href="http://www.seembu.com/" target="_blank" >Seembu</a></h1>
+					<h4> <span class="year-work">2016</span></h4>
+				</div>
+				<div class="work-divider"></div>
+				<div class="content-work-container">
+					<h4> Web Developer </h4>
+					<p class="work-util"><strong>What I used: </strong> Ruby on Rails, WordPress, Javascript, JQuery </p>
+					<p class="work-description">
+						<ul>
+							<li>
+								Built a profiling system for every architect in the Philippines so that home owners can easily look for a architect of their choice; utilized AWS - S3 to store photos and files
+							</li>
+							<li>
+								Maintained and implemented a WordPress site
+							</li>
+						</ul>
+					</p>
+				</div>
 			</section>
-			<section class="hero project3">
-			  <div class="hero-body">
-			    <div class="container">
-				    <h1 class="title">
-				    	Qmune Loyalty App
-				    </h1>
-			      <h4 class="subtitle">
-			        A mobile android app that serves a digital loyalty system for dessert shops to </br>gather important informations for loyal customers.
-			      </h4>
-			      <h4 class="subtitle"><strong>Year:</strong> 2013</h4>
-			      <h4 class="subtitle"><strong>What is it: </strong> An Android tablet application with a unique QR card.</h4>
-			      <h4 class="subtitle"><strong>What I did: </strong> I was the product manager for this app. </h4>
-			    </div>
-			  </div>
+			<section class="seembu">
+				<div class="header-work-container">
+					<h1 class="work-title">Codeitat Software Development</h1>
+					<h4> <span class="year-work">2014 - 2015</span></h4>
+				</div>
+				<div class="work-divider"></div>
+				<div class="content-work-container">
+					<h4> Web developer | Product manager </h4>
+					<p class="work-util"><strong>What I used: </strong> WordPress, Laravel, Scrum Product Owner, Javascript </p>
+					<p class="work-description">
+						<ul>
+							<li>
+								Managed a team of android developers, and designers to create a customer loyalty app for dessert shops
+							</li>
+							<li>
+								Built, and maintained custom theme WordPress apps
+							</li>
+							<li>
+								Consulted local small businesses on improving their global web
+								presence
+							</li>
+							<li>
+								Created side project web apps with Laravel - PHP
+							</li>
+							<li>
+								Performed user research to learn more about customer loyalty in
+								the desert space
+							</li>
+						</ul>
+					</p>
+				</div>
 			</section>
-			<a href="http://www.seembu.com" target="_blank">
-			<section class="hero is-success project4">
-			  <div class="hero-body">
-			    <div class="container">
-				      <h1 class="title">
-				        Seembu
-				      </h1>
-			      <h4 class="subtitle">
-			      	A source of architectural insights, interior tips, marketing tips, self-improvement guides </br> and inspiring stories.
-			      </h4>
-			      <h4 class="subtitle"><strong>Year:</strong> 2015</h4>
-			      <h4 class="subtitle"><strong>What is it: </strong> A blog site built using WordPress.</h4>
-			      <h4 class="subtitle"><strong>What I did: </strong> I build this using X theme with custom CSS. </h4>
-			    </div>
-			  </div>
-			</section>
-			</a>
 		</div>
 	`
 })
 
-// Vue.component('education-section',{
-// 	template:`
-// 		<div>
-			
-// 		</div>
-// 	`
-// })
+Vue.component('education-section',{
+	template:`
+		<div class="works content is-medium">
+			<h1 class="text-center"> MY PAST PROJECTS </h1>
+			<section class="ladderio-server">
+				<h2 class="title">Ladder.io</h2>
+				<ul class="ul-projects">
+					<li>
+						<a href="https://ladder-api-app.herokuapp.com/" target="_blank">
+							Data Entry GUI - API App
+						</a>
+					</li>
+					<li>
+						<a href="https://ladder-api-app.herokuapp.com/api/v1/industries" target="_blank">
+							Marketing benchmarks JSON URL
+						</a>
+					</li>
+					<li>
+						<a href="https://ladder-search.herokuapp.com/" target="_blank">
+							Search Engine App
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="ladderio-server">
+				<h2 class="title">Seembu</h2>
+				<ul class="ul-projects">
+					<li>
+						<a href="http://www.seembu.com/" target="_blank">
+							Seembu Blog Site
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="ladderio-server">
+				<h2 class="title">MCRD Enterprises</h2>
+				<ul class="ul-projects">
+					<li>
+						<a href="http://mcrdenterprises.com/" target="_blank">
+							MCRD Landing Page
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	`
+})
 
 const app = new Vue({
 	el: "#app",
@@ -219,33 +264,33 @@ const app = new Vue({
 		showintro: true,
 		showskills: false,
 		showproject: false,
-		html: "0"
-		// showeduction: false
+		html: "0",
+		showeduction: false
 	},
 	methods: {
 		showIntroSection(){
 			this.showintro = true
 			this.showskills = false
 			this.showproject = false
-			// this.showeduction = false
+			this.showeduction = false
 		},
 		showSkillsSection() {
 			this.showskills = true
 			this.showintro = false
 			this.showproject = false
-			// this.showeduction = false
+			this.showeduction = false
 		},
 		showProjectSection() {
 			this.showproject = true
 			this.showintro = false
 			this.showskills = false
-			// this.showeduction = false
+			this.showeduction = false
 		},
-		// showEducationSection() {
-		// 	this.showproject = false
-		// 	this.showintro = false
-		// 	this.showskills = false
-		// 	this.showeduction = true
-		// }
+		showEducationSection() {
+			this.showproject = false
+			this.showintro = false
+			this.showskills = false
+			this.showeduction = true
+		}
 	}
 })
