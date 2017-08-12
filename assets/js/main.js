@@ -254,6 +254,16 @@ Vue.component('education-section',{
 					</li>
 				</ul>
 			</section>
+			<section class="ladderio-server">
+				<h2 class="title">Side Projects</h2>
+				<ul class="ul-projects">
+					<li>
+						<a href="http://vue-js.bitballoon.com/" target="_blank">
+							NewsAPI with VueJS
+						</a>
+					</li>
+				</ul>
+			</section>
 		</div>
 	`
 })
