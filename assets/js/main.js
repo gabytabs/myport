@@ -229,7 +229,12 @@ Vue.component('education-section',{
 					</li>
 					<li>
 						<a href="https://ladder-search.herokuapp.com/" target="_blank">
-							Search Engine App
+							Search Engine App - React Version
+						</a>
+					</li>
+					<li>
+						<a href="http://vue-metricsearch.bitballoon.com/" target="_blank">
+							Search Engine App - VueJS Version
 						</a>
 					</li>
 				</ul>
